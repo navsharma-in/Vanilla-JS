@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+/*NAV BAR CSS*/
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  background-color: darkolivegreen;
+  color: white;
+  box-shadow: 0px 0px 3px 0px black;
+  margin-bottom: 5%;
+}
+
+.nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav > ul > li {
+  list-style: none;
+  padding: 20px;
+}
+
+.logo {
+
+}
+
+/*Hero Section*/
+.hero-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  background: red;
+  
+}
+
+.hero-box>.hero-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+.hero-box>.hero-left>h1{
+    margin-bottom: 20px;
+    letter-spacing: 0.2vw;
+    text-align: left;
+}
+
+.hero-box>.hero-left>p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+span{
+    letter-spacing: 0.1vw;
+    border-bottom: 2px solid #f0db51;
+    font-weight: 800;
+}
+
+button{
+background-color: #f0db51;
+padding: 10px 30px;
+border: none;
+border-radius: 10px;
+width: 20%;
+position: relative;
+margin-top: 40px;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #f0db51;
+}
+
+.hero-box>.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 2px solid black;
+    
+}
+
+img{
+    width: 600px;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 5px;
+}
