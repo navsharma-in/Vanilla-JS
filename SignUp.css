@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 body,
 html {
@@ -13,52 +15,19 @@ html {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  background-color: coral;
+  background-image: url(https://images.fanart.tv/fanart/coco-5edb8be74e666.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main > .box {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(252, 252, 252, 0.753);
-  width: 80%;
-  height: 80%;
-  /* opacity: 80; */
-  border-radius: 10px;
-  background-clip: border-box;
-}
-
-.left-box {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  height: 100%;
-}
-
-.right-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  height: 100%;
   flex-direction: column;
-}
-
-.left-img {
-  height: 100%;
-}
-
-.main > .box > .right-box > .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40%;
-}
-.right-img {
-  box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.486);
-  margin-top: 5%;
+  margin-bottom: 20%;
 }
 
 .form {
@@ -66,17 +35,34 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 80%;
-  background-color: red;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  margin: 20px;
 }
 
 input {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  border-radius: 10px;
+  padding: 15px;
   outline: none;
-  background: none;
+  background: transparent;
   color: white;
+  font-size: 16px;
+  margin: 10px;
+  width: 30vmax;
+  border: none;
+	border-bottom: 2px solid #D1D1D4;
+}
+
+input::placeholder {
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+.right-img {
+  width: 80%;
 }
